@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p{
+    color: rgb(78, 73, 73);
+}

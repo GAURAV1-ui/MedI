@@ -1,0 +1,88 @@
+
+.polygon {
+    height: 20px;
+    width: 20px;
+    background-color: #106e5b;
+    rotate: 45deg;
+    margin-left: 8rem;
+}
+
+.heading h2{
+    font-size: 2rem;
+    color: #106e5b;
+}
+.heading p {
+    font-size: 25px;
+    color: #4b9385;
+}
+
+.line{
+    border: 2px solid #106e5b;
+    margin-top: -11px;
+    margin-bottom: 3rem;
+}
+
+form label {
+    flex: 1;
+    font-size: 32px;
+    font-weight: 500;
+    color: #106e5b;
+    margin-bottom: 1rem;
+  }
+
+.button button {
+    width: 50%;
+    padding: 0.5rem;
+    color: #106e5b;
+    background-color: #ebf7f5;
+    border: rgb(16, 11, 2);
+    box-shadow: 10px rgb(238, 244, 242);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.phoneInput{
+    border:2px solid #1e8570;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.PhoneInputInput{
+    height: 70px !important;
+    border-color:green !important;
+}
+.PhoneInputCountryIconImg {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+input[type=email]{
+    color:#106e5b;
+    font-weight: 500;
+    font-size: 20px;
+}
+.countdown_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 700px) {
+    .heading h2{
+        font-size: 1.6rem;
+        margin: 10px 0;
+    }
+    .heading p{
+        font-size: 20px;
+    }
+   .button button {
+    width: 100%;
+   }
+}

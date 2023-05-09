@@ -1,0 +1,31 @@
+   .card {
+    position:relative;
+    top: 15vh;
+    left: 5%;
+    width: 90%;
+    /* background-color: rgb(253, 251, 247); */
+    background-color: #FAECE1;
+    padding: 2rem;
+    border-radius: 5px;
+    border: 2px solid #287e6d;
+    /* box-shadow: 0 2px 8px rgba(241, 236, 236, 0.25); */
+  }
+
+  
+  @media (min-width: 768px) {
+    .card {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
+  @media (max-width: 768px) {
+    body{
+        background-color:rgb(253, 251, 247); ;
+    }
+    .card {
+      border: none;
+      width: 90%;
+      padding: .5rem;
+    }
+  }
+  

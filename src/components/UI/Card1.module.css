@@ -1,0 +1,14 @@
+.card1 {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  /* @media (min-width: 768px) {
+    .card1{
+      margin: 2rem;
+    }
+
+  } */

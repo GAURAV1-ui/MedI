@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem 1.2rem;
+}
+
+.transcribed_data textarea {
+  
+    width: 96%;
+    height: 150px;
+    margin: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(235, 231, 231);
+    /* border-radius: 4px; */
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .button {
+    text-align: end;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .button button {
+    width: 30%;
+    color: white;
+    background-color:#106e5b ;
+  }
+
+  .selectOption {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1.5rem;
+  }
+
+  .select {
+    display: flex;
+  }
+p{
+  margin:5px 1px;
+  /* color: #106e5b; */
+}
+select{
+  /* border: 1 px solid #106e5b; */
+  border: none;
+  color:#106e5b;
+  width: 90%;
+}
+/* option{
+  color:#106e5b;
+} */
+.modalButton {
+  text-align: center;
+}
+.modalButton1,.modalButton2{
+background-color: #106e5b;
+color: white;
+padding: 8px;
+margin: 3rem 2rem 0.5rem 2rem;
+border: none;
+border-radius: 5px;
+width: 20%;
+}
+.modalButton3 {
+  background-color: #106e5b;
+  border: none;
+  color: white;
+  padding: 8px;
+  margin: 3rem 2rem 0.5rem 1.5rem;
+  border-radius: 5px;
+  width: 80%;
+}
+/* .modalButton1{
+  margin-right: 5px;
+} */
+.content{
+  border: 2px solid #106e5b;
+  padding: 10px;
+}
+.content p {
+  font-size: 1.5rem
+}
+
+  @media (max-width: 600px) {
+    .transcribed_data textarea{
+        width: 96%;
+        margin: 1rem 0 1rem 0.4rem;
+    }
+    .button button{
+        width: 90%;
+       
+    }
+    .button {
+        margin-right: 2rem;
+    }
+    .select {
+      display: flex;
+      flex-direction: column;
+    }
+    p{
+      font-size: 12px;
+      
+    }
+    .content p{
+      font-size: 15px;
+    }
+    .modalButton1,.modalButton2{
+      padding: 8px;
+      margin: 2rem 0.1rem 0.1rem 0.1rem;
+
+      width: 46%;
+      }
+     }
